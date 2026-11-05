@@ -1,0 +1,61 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="device_button_event" id="C.I=9JD;txNuf9fXuAn;" x="0" y="0"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="servoservorun" id="ZX9J)UlSMRuwfj,52~Ij"><field name="servo">servos.P0</field><value name="speed"><shadow type="speedPicker" id="i.9z(WgGGDR*,/y/eeIK"><field name="speed">0</field></shadow></value><next><block type="servoservorun" id="j/NB#k0NSc^U{RaQ^HCK"><field name="servo">servos.P1</field><value name="speed"><shadow type="speedPicker" id="jn,*CutWhUkz]NXS3eCF"><field name="speed">0</field></shadow></value></block></next></block></statement></block><block type="pxt-on-start" id="ZW`q4ZZixCkOuCNq=ty3" x="1168" y="-5"><statement name="HANDLER"><block type="music_playable_play" id="SKW|*L(!P*d[_HIqkm!`"><field name="playbackMode">music.PlaybackMode.UntilDone</field><value name="toPlay"><shadow type="music_string_playable" id="ds?LA8$z1)2qr@IUD?B_"><value name="melody"><shadow type="melody_editor" id="=n%F4ftP:+wKBWDRy:{f"><field name="melody">"- - - - - - - - "</field></shadow></value><value name="bpm"><shadow type="math_number_minmax" id="X~r{;3lr4$02C7Q:ckwx"><mutation min="40" max="500" label="Bpm" precision="0"></mutation><field name="SLIDER">90</field></shadow></value></shadow><block type="music_string_playable" id="k%RKR[8t=#ciZ#zLcWs["><value name="melody"><shadow type="melody_editor" id="nu?Dc32-vsF+Ek{4SDH="><field name="melody">"- - - - - - - - "</field></shadow><block type="melody_editor" id="?Vw$zv3d+.t5a8nJRVS0"><field name="melody">"C D D E E F E G "</field></block></value><value name="bpm"><shadow type="math_number_minmax" id="3W[jDx*BWVj+Xk?.K.}Y"><mutation min="40" max="500" label="Bpm" precision="0"></mutation><field name="SLIDER">90</field></shadow></value></block></value><next><block type="music_playable_play" id="2:S8p@hfP$S3~a01NC,d"><field name="playbackMode">music.PlaybackMode.UntilDone</field><value name="toPlay"><shadow type="music_string_playable" id="Wc%#Vg):`vo-,=2lq]|R"><value name="melody"><shadow type="melody_editor" id="C*T#)j!:1`E_;{z2)yc:"><field name="melody">"- - - - - - - - "</field></shadow></value><value name="bpm"><shadow type="math_number_minmax" id="bUWINf7{Fj1x+{RaLq_M"><mutation min="40" max="500" label="Bpm" precision="0"></mutation><field name="SLIDER">120</field></shadow></value></shadow><block type="music_string_playable" id="PAp)oL?8=fr}+6GKK]eE"><value name="melody"><shadow type="melody_editor" id="|;mV_|{G@O3)EuzK%*+W"><field name="melody">"- - - - - - - - "</field></shadow><block type="melody_editor" id="@$~vy[9qo(Y/Y1yyc1F5"><field name="melody">"F E F D D C C - "</field></block></value><value name="bpm"><shadow type="math_number_minmax" id="O|#DzLM3eRe1d?gLnjp$"><mutation min="40" max="500" label="Bpm" precision="0"></mutation><field name="SLIDER">90</field></shadow></value></block></value><next><block type="device_show_leds" id="Dj6$2mx^NXs+rF_Xs7pc"><field name="LEDS">`
+        . . . . . 
+        # . . . # 
+        . . . . . 
+        # . . . # 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="z-JU_6Y35;V_$L]nq1N~"><field name="LEDS">`
+        . # . # . 
+        # . . . # 
+        # . . . # 
+        # . . . # 
+        . # . # .
+        `</field><next><block type="device_show_leds" id="ule6m/LEef:LzxtH`V9A"><field name="LEDS">`
+        . # # # . 
+        # . . . # 
+        # . . . # 
+        # . . . # 
+        . # # # .
+        `</field><next><block type="device_show_leds" id="?Ko?XuOUQrQ:iE2$;*TV"><field name="LEDS">`
+        . # # # . 
+        # . . . # 
+        # # . # # 
+        # . . . # 
+        . # # # .
+        `</field><next><block type="device_show_leds" id="yFfKtRhvb(8E/erK01Y+"><field name="LEDS">`
+        . # # # . 
+        # . . . # 
+        # . . . # 
+        # . . . # 
+        . # # # .
+        `</field><next><block type="device_show_leds" id="ao2]-nky4G;(vup!*x,m"><field name="LEDS">`
+        . # # # . 
+        # . . . # 
+        # # . # # 
+        # . . . # 
+        . # # # .
+        `</field><next><block type="device_show_leds" id="@L6X4TK:]*$(j*uHbesp"><field name="LEDS">`
+        . # # # . 
+        # . . . # 
+        # . . . # 
+        # . . . # 
+        . # # # .
+        `</field><next><block type="device_show_leds" id="/aN:SU~pf=N=UBul,K2K"><field name="LEDS">`
+        . # . # . 
+        # . . . # 
+        # . . . # 
+        # . . . # 
+        . # . # .
+        `</field><next><block type="device_show_leds" id="xgCl00H9^+Qn%}Y:/NqB"><field name="LEDS">`
+        . . . . . 
+        # . . . # 
+        . . . . . 
+        # . . . # 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="aN5s?hsOzvRq:LuA#!~~"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="device_gesture_event" id="9yfpqoMlwZw{,fc+D75H" x="-97" y="216"><field name="NAME">Gesture.TiltRight</field><statement name="HANDLER"><block type="servoservorun" id="=(wbb+;p8SV(Ibnc[LZw"><field name="servo">servos.P0</field><value name="speed"><shadow type="speedPicker" id=";thj4z)$ifG!sy30VQ@q"><field name="speed">80</field></shadow></value><next><block type="servoservorun" id="-MMJgOf7Sd3V/1KiFvkS"><field name="servo">servos.P1</field><value name="speed"><shadow type="speedPicker" id="K3?n7~qgJ^[7favi^r~z"><field name="speed">20</field></shadow></value></block></next></block></statement></block><block type="device_button_event" id="([/y17ylS+PHPgi92,mF" x="341" y="249"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="servoservorun" id="d?uQR`oQf1)?)je=OnVd"><field name="servo">servos.P0</field><value name="speed"><shadow type="speedPicker" id="[6@vZU3!jcn5/q-Rq:tv"><field name="speed">100</field></shadow></value><next><block type="servoservorun" id="KA8m+a7_,oeY(di-9iO4"><field name="servo">servos.P1</field><value name="speed"><shadow type="speedPicker" id="]6N#kyH*MWQGC6(c.^`W"><field name="speed">100</field></shadow></value></block></next></block></statement></block><block type="device_gesture_event" id="wVt|iRP8.TAz.Xypp);{" x="-129" y="409"><field name="NAME">Gesture.TiltLeft</field><statement name="HANDLER"><block type="radio_set_group" id="z,Ju/Z5td|O_r%AaUxYN"><value name="ID"><shadow type="math_number_minmax" id="Dx?}pB`_a+]c1SSLnBu%"><mutation min="0" max="255" label="Id" precision="0"></mutation><field name="SLIDER">1</field></shadow></value><next><block type="radio_datagram_send" id="1pM:/=:9:pWRSp`oeuhS"><value name="value"><shadow type="math_number" id="!L)YCRB|1YAz7I2.Mqq("><field name="NUM">1</field></shadow></value></block></next></block></statement></block><block type="radio_on_number_drag" id="|rQb%0]lRB1*ECZONp$b" x="277" y="565"><value name="HANDLER_DRAG_PARAM_receivedNumber"><block type="argument_reporter_number" id="[dZoP?4VZ]=]y_Q5iTbM" deletable="false"><mutation localizationname="radio.onReceivedNumber|handlerParam|receivedNumber"></mutation><field name="VALUE">receivedNumber</field></block></value><statement name="HANDLER"><block type="servoservorun" id="*#K^i[0;bT^h5`~H}$xn"><field name="servo">servos.P0</field><value name="speed"><shadow type="speedPicker" id="gB4#0cHn,q,l;/K2M^R6"><field name="speed">20</field></shadow></value><next><block type="servoservorun" id="aD@R0~e*PMOSeS5([%}1"><field name="servo">servos.P1</field><value name="speed"><shadow type="speedPicker" id="{u*TO_,`O#gN3:?hm@8T"><field name="speed">80</field></shadow></value></block></next></block></statement></block><block type="input_logo_event" id="rbY02SF9xu02im*)OpFg" x="15" y="703"><field name="action">TouchButtonEvent.Pressed</field></block></xml>
